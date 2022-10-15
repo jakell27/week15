@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:jeep;DB_CLOSE_DELAY=-1;MODE=MySQL;NON_KEYWORDS=UNSIGNED
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug
